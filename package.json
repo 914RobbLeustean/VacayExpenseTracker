@@ -1,0 +1,55 @@
+{
+  "name": "vacation-expense-tracker",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/dom": "^10.4.0",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "autoprefixer": "^9.8.8",
+    "file-saver": "^2.0.5",
+    "jspdf": "^3.0.1",
+    "jspdf-autotable": "^5.0.2",
+    "lucide-react": "^0.503.0",
+    "postcss": "^7.0.39",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-scripts": "^3.0.1",
+    "recharts": "^2.15.3",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "start:legacy": "cross-env NODE_OPTIONS=--openssl-legacy-provider react-scripts start",
+    "build": "react-scripts build",
+    "build:tailwind": "postcss src/tailwind.css -o src/tailwind.output.css",
+    "prestart": "npm run build:tailwind",
+    "prestart:legacy": "npm run build:tailwind",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "postcss-cli": "^7.1.2"
+  }
+}
