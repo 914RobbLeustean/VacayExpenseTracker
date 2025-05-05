@@ -59,40 +59,40 @@ npm start
 4.Open http://localhost:3000 to view it in the browser.
 
 ## 📁 Project Structure
-src/
-├── components/           # React components
-│   ├── AccountSettings/  # User account settings
-│   ├── Budget/          # Budget management
-│   ├── Collaboration/   # Trip sharing & expense splitting
-│   ├── Dashboard/       # Main dashboard
-│   ├── Expenses/        # Expense tracking
-│   ├── Export/          # Data export functionality
-│   ├── Shared/          # Reusable components
-│   ├── Tips/            # Travel tips
-│   └── Trips/           # Trip management
-├── contexts/            # React Context for state management
-├── hooks/               # Custom React hooks
-├── utils/               # Utility functions
-└── data/                # Default data and constants
+- src/
+- ├── components/           # React components
+- │   ├── AccountSettings/  # User account settings
+- │   ├── Budget/          # Budget management
+- │   ├── Collaboration/   # Trip sharing & expense splitting
+- │   ├── Dashboard/       # Main dashboard
+- │   ├── Expenses/        # Expense tracking
+- │   ├── Export/          # Data export functionality
+- │   ├── Shared/          # Reusable components
+- │   ├── Tips/            # Travel tips
+- │   └── Trips/           # Trip management
+- ├── contexts/            # React Context for state management
+- ├── hooks/               # Custom React hooks
+- ├── utils/               # Utility functions
+- └── data/                # Default data and constants
 
 ## 🔧 Technology Stack
 
-**React**t - UI library
-**React Hooks** - State management
-**Context API** - Global state management
-**Tailwind CSS** - Styling
-**Recharts** - Data visualization
-**Lucide React** - Icons
-**jsPDF** - PDF generation
-**FileSaver.js** - File downloads
+- **React**t - UI library
+- **React Hooks** - State management
+- **Context API** - Global state management
+- **Tailwind CSS** - Styling
+- **Recharts** - Data visualization
+- **Lucide React** - Icons
+- **jsPDF** - PDF generation
+- **FileSaver.js** - File downloads
 
 ## 📱 Responsive Design
 
 The application is fully responsive and works on:
 
-**Desktop computers**
-**Tablets**
-**Mobile devices (iOS and Android)**
+- **Desktop computers**
+- **Tablets**
+- **Mobile devices (iOS and Android)**
 
 
 
