@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# VacayTracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, collaborative vacation expense tracking application built with React. Perfect for group trips where you need to manage shared expenses, split costs, and track who owes what.
 
-## Available Scripts
+## 🌟 Features
 
-In the project directory, you can run:
+### Core Expense Tracking
+- Track vacation expenses with categories (accommodation, food, activities, etc.)
+- Set budgets for different expense categories
+- Visual charts showing spending distribution (pie, bar, and line charts)
+- Multiple currency support (USD, EUR, GBP, JPY, CAD)
+- Dark/Light mode support
 
-### `npm start`
+### Trip Management
+- Create and manage multiple trips
+- Open/Close trips to control expense tracking
+- Track trip duration and destination
+- Email notifications for budget warnings
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Collaborative Features
+- **Trip Sharing**: Invite other users to trips via email
+- **Expense Splitting**: Split expenses equally or with custom amounts
+- **Group Expense Tracking**: Track who paid what and who owes whom
+- **Comments & Notes**: Add comments to expenses for better context
+- **Real-time Balance Tracking**: See current balances for each trip member
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Data Export
+- Export trips to PDF, CSV, or JSON formats
+- Include budget information, charts, and category breakdowns
+- Customizable export filters by date range and categories
+- Share reports directly from the app
 
-### `npm test`
+### Money-Saving Features
+- Personalized travel tips based on spending patterns
+- Budget warnings and notifications
+- Category-specific money-saving recommendations
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🚀 Getting Started
 
-### `npm run build`
+### Prerequisites
+- Node.js 14.0 or higher
+- npm or yarn package manager
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Clone the repository:
+```bash
+git clone https://github.com/914RobbLeusteanVacayExpenseTracker.git
+cd VacayExpenseTracker
